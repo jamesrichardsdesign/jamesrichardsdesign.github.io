@@ -1,0 +1,273 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* FRONT PAGE */
+.hero {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("back.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+
+
+.hero-inner {
+    margin-top: 0;
+    margin-bottom: 0.5em;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #ececea;
+}
+
+
+#title {
+    position: relative;
+    top: 150px;
+    right: 15px;
+    font-family: 'Pacifico', cursive;
+    width: 20vw;
+    font-weight: lighter;
+    font-size: 5em;
+    text-align:center;
+    text-transform: uppercase;
+    cursor: default;
+    user-select: none;
+}
+
+.glyphicon {
+    position: absolute;
+    content:"\e259";
+    top: 875px;
+    font-size: 3.5em;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.glyphicon:hover {
+    opacity: 0.5;
+    transition: 0.3s;
+}
+
+.glyphicon:hover {
+    border-style: solid;
+    border-width: thin;
+    border-radius: 100px;
+    transition: 0.8s;
+}
+
+
+/*nav bar*/
+.navbar {
+    width: 100%;
+    background-color: transparent;
+    overflow: hidden;
+    border: none;
+    z-index: 100;
+}
+
+.nav li a {
+    color: #ececea !important;
+}
+
+li {
+    padding: 0px 20px 2px 20px;
+    font-size: 1.5em;
+    letter-spacing: 2px;
+}
+
+li:hover {
+    border-style: solid;
+    border-width: thin;
+    border-color: #ececea;
+    transition: 0.3s;
+}
+
+.navbar.solid {
+  background-color: #171b24;
+  transition: background-color 1s ease 0s;
+}
+
+/*ABOUT SECTION*/
+#about {
+    position: relative;
+    padding-top: 1px;
+    height: 400px;
+    background-color: #2a3440;
+    color: #ececea;
+}
+#about_descript {
+    margin: 20px;
+	word-spacing: 5px;
+    letter-spacing: 2px;
+	line-height: 48px;
+	font-size:1.5em;
+	padding-left: 10px;
+	padding-top:10px;
+	font-weight: 200px;
+    text-align: center;
+}
+
+
+h2 {
+	text-align: center;
+	font-size: 40px;
+	font-weight: 200px;
+	text-transform: uppercase;
+	padding-top: 20px;
+    padding-top: 30px;
+    font-weight: bold;
+    letter-spacing: 10px
+}
+
+/*PROJECTS SECTION*/
+#projects {
+    height: 400px;
+    background-color: #ececea;
+    text-transform: uppercase;
+    padding-top: 1px;
+}
+
+
+h3 {
+    text-align: center;
+	font-size: 40px;
+	font-weight: 200px;
+	text-transform: uppercase;
+	padding-top: 20px;
+    padding-top: 30px;
+    font-weight: bold;
+    letter-spacing: 10px
+}
+
+#comingsoon {
+    margin: 20px;
+	word-spacing: 5px;
+    letter-spacing: 2px;
+	line-height: 48px;
+	font-size:1.5em;
+	padding-left: 10px;
+	padding-top:10px;
+	font-weight: 200px;
+    text-align: center;
+    
+}
+
+/*CONTACT FORM*/
+#contact {
+    height: 400px;
+    background-color: #2a3440;
+    color: #ececea;
+    height: 30vw;
+    margin-top: -10px;
+}
+
+h4 {
+    text-align: center;
+	font-size: 40px;
+	font-weight: 200px;
+	text-transform: uppercase;
+	padding-top: 20px;
+    padding-top: 30px;
+    font-weight: bold;
+    letter-spacing: 10px
+}
+/*CONTACT FORM*/
+label {
+    display:block;
+    margin-top:20px;
+    letter-spacing:2px;
+}
+
+.body {
+    display:block;
+    margin:0 auto;
+    width:576px;
+}
+
+/* Centre the form within the page */
+form {
+    margin:0 auto;
+    width:459px;
+}
+
+/* Style the text boxes */
+input, textarea {
+    width:439px;
+    height:27px;
+    background:#efefef;
+    border:1px solid #dedede;
+    padding:10px;
+    margin-top:3px;
+    font-size:0.9em;
+    color:#3a3a3a;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    border-radius:5px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: #171b24;
+}
+
+input:focus, textarea:focus {
+    border:1px solid #97d6eb;
+}
+
+textarea {
+	height:213px;
+	background:url(images/textarea-bg.jpg) right no-repeat #efefef;
+}
+
+#submit {
+    width:127px;
+    height:38px;
+    cursor:pointer;
+    position:relative;
+    
+}
+
+	#submit:hover {
+	    opacity:.9;
+	}
+
+/*FOOTER*/
+footer {
+    padding-top: 30px;
+    padding-bottom: 50px;
+    width: 100%;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #171b24;
+}
+
+.fab {
+    font-size: 2em;
+    margin: 3rem;
+    border: 1px solid #2a3440;
+    width: 50px;
+    padding: 10px;
+    background-color: #2a3440;
+    color: #ececea;
+}
+
+.copyright {
+    color: white;
+    position: relative;
+}
+    
+/*
+f08c
+f16d
+f092
+f16c
