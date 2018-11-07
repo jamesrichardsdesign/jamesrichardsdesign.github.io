@@ -164,11 +164,10 @@ h3 {
 
 /*CONTACT FORM*/
 #contact {
-    height: 400px;
+    padding-top: 0.1vw;
     background-color: #2a3440;
     color: #ececea;
-    height: 30vw;
-    margin-top: -10px;
+    padding-bottom: 1vw;
 }
 
 h4 {
