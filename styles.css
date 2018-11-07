@@ -47,7 +47,7 @@ body {
 .glyphicon {
     position: absolute;
     content:"\e259";
-    top: 875px;
+    top: 90%;
     font-size: 3.5em;
     cursor: pointer;
     padding: 10px;
