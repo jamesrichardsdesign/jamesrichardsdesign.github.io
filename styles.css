@@ -101,9 +101,9 @@ li:hover {
 #about {
     position: relative;
     padding-top: 1px;
-    height: 400px;
     background-color: #2a3440;
     color: #ececea;
+    padding-bottom: 5vw;
 }
 #about_descript {
     margin: 20px;
@@ -131,10 +131,10 @@ h2 {
 
 /*PROJECTS SECTION*/
 #projects {
-    height: 400px;
     background-color: #ececea;
     text-transform: uppercase;
     padding-top: 1px;
+    padding-bottom: 5vw;
 }
 
 
