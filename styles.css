@@ -240,6 +240,7 @@ textarea {
 
 /*FOOTER*/
 footer {
+    padding-top: 1vw;	
     width: 100%;
     display: inline-block;
     justify-content: center;
