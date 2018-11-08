@@ -31,9 +31,8 @@ body {
 
 
 #title {
-    position: relative;
-    top: 150px;
-    right: 15px;
+    position: absolute;
+    top: 52%;
     font-family: 'Pacifico', cursive;
     width: 20vw;
     font-weight: lighter;
@@ -48,7 +47,7 @@ body {
     position: absolute;
     content:"\e259";
     top:90%;
-    font-size: 3.5em;
+    font-size: 3.5vw;
     cursor: pointer;
     padding: 10px;
 }
@@ -115,13 +114,17 @@ li:hover {
 	padding-top:10px;
 	font-weight: 200px;
     text-align: center;
+    font-size: 1vw;
+    width: 50%;
+    justify-content: center;
+    position: relative;
+    left: 23.5%
 }
 
 
 h2 {
 	text-align: center;
-	font-size: 40px;
-	font-weight: 200px;
+	font-size: 2em;
 	text-transform: uppercase;
 	padding-top: 20px;
     padding-top: 30px;
@@ -140,8 +143,7 @@ h2 {
 
 h3 {
     text-align: center;
-	font-size: 40px;
-	font-weight: 200px;
+	font-size: 2em;
 	text-transform: uppercase;
 	padding-top: 20px;
     padding-top: 30px;
@@ -159,6 +161,11 @@ h3 {
 	padding-top:10px;
 	font-weight: 200px;
     text-align: center;
+    font-size: 1vw;
+    width: 50%;
+    justify-content: center;
+    position: relative;
+    left: 23.5%
     
 }
 
@@ -172,8 +179,7 @@ h3 {
 
 h4 {
     text-align: center;
-	font-size: 40px;
-	font-weight: 200px;
+	font-size: 2em;
 	text-transform: uppercase;
 	padding-top: 20px;
     padding-top: 30px;
@@ -265,7 +271,3 @@ footer {
 }
     
 /*
-f08c
-f16d
-f092
-f16c
