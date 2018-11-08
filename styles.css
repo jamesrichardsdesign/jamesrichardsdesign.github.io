@@ -47,7 +47,7 @@ body {
     position: absolute;
     content:"\e259";
     top:90%;
-    font-size:1vw;
+    font-size: 2vw;
     cursor: pointer;
     padding: 10px;
 }
