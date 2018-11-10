@@ -10,10 +10,10 @@ $(document).ready(function(){
     function scrollNav() {
   $('.navbar a').click(function(){  
     //Toggle Class
-    $(".active").removeClass("active");      
-    $(this).closest('li').addClass("active");
+    $(".active").removeClass("actived");      
+    $(this).closest('li').addClass("actived");
     var theClass = $(this).attr("class");
-    $('.'+theClass).parent('li').addClass('active');
+    $('.'+theClass).parent('li').addClass('actived');
     //Animate
     $('html, body').stop().animate({
         scrollTop: $( $(this).attr('href') ).offset().top - 160
