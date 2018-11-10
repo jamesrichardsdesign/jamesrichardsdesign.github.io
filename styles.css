@@ -41,6 +41,7 @@ body {
     text-transform: uppercase;
     cursor: default;
     user-select: none;
+    color: white;
 }
 
 .glyphicon {
@@ -82,12 +83,11 @@ li {
     padding: 0px 20px 2px 20px;
     font-size: 1.25vw;
     letter-spacing: 2px;
+    cursor: pointer;
 }
 
 li:hover {
-    border-style: solid;
-    border-width: thin;
-    border-color: #ececea;
+    opacity: 0.5;
     transition: 0.3s;
 }
 
@@ -263,9 +263,25 @@ footer {
     padding: 10px;
     background-color: #2a3440;
     color: #ececea;
+    text-decoration:none !important;
+    user-select: none;
+}
+
+.fab:hover {
+    color: #2a3440;
+    transform: scale(0.90);
+    transition: 0.1s;
+    background-color: #ececea;
+    box-shadow: none;
+    
 }
 
 .copyright {
-    color: white;
     position: relative;
 }
+    
+/*
+f08c
+f16d
+f092
+f16c
