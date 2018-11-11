@@ -10,7 +10,7 @@ body {
 .hero {
     max-width: 100%;
     min-width: 300px;
-    height: auto;
+    height: 100vh;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("back.jpg");
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -21,6 +21,7 @@ body {
     background-attachment: fixed;
     overflow: hidden;
 }
+
 
 
 .hero-inner {
