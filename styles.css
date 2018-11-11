@@ -97,9 +97,18 @@ body {
     color: #ececea !important;
 }
 
-ul {
+nav {
     white-space: nowrap;
+}
+
+ul {
+    display: inline-block;
     min-width: 400px;
+    *display: inline;
+    *zoom:1;
+    width: 33%;
+    text-align: center;
+    margin-left: -4px;
 }
 
 li {
