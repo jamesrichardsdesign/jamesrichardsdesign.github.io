@@ -8,32 +8,8 @@ body {
 
 /* FRONT PAGE */
 .hero {
-    max-width: 100%;
-    min-width: 300px;
-    height: 100vh;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("back.jpg");
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    overflow: hidden;
 }
-
-@media only screen and (min-divice-width: 400px) {
-    body { 
-        background-size: contain;
-        width: 100%;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        overflow: hidden;
-        
-    }
-}
-
 
 .hero-inner {
     margin-top: 0;
@@ -316,21 +292,21 @@ footer {
 
 @media only screen and (min-divice-width: 400px) {
     p { 
-        font-size: 2vw;
+        font-size: 5vw;
         
     }
 }
 
 @media only screen and (min-divice-width: 400px) {
     li { 
-        font-size: 2vw;
+        font-size: 5vw;
         
     }
 }
 
 @media only screen and (min-divice-width: 400px) {
     #title { 
-        font-size: 4vw;
+        font-size: 8vw;
     }
 }
 /*
