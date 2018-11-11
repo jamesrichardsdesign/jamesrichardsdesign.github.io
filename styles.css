@@ -304,6 +304,26 @@ footer {
     position: relative;
 }
     
+
+@media only screen and (min-divice-width: 400px) {
+    p { 
+        font-size: 2vw;
+        
+    }
+}
+
+@media only screen and (min-divice-width: 400px) {
+    li { 
+        font-size: 2vw;
+        
+    }
+}
+
+@media only screen and (min-divice-width: 400px) {
+    #title { 
+        font-size: 4vw;
+    }
+}
 /*
 f08c
 f16d
