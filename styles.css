@@ -1,15 +1,15 @@
-
 body {
     margin: 0;
     padding: 0;
-    width: 100%;
     font-family: 'Open Sans', sans-serif;
+    max-width: 100%;
+    min-width: 300px;
 }
 
 /* FRONT PAGE */
 .hero {
-    width: 100%;
-    max-width: 400px;
+    max-width: 100%;
+    min-width: 300px;
     height: auto;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("back.jpg");
     -webkit-background-size: cover;
