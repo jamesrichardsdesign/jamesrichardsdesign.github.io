@@ -22,12 +22,17 @@ body {
     overflow: hidden;
 }
 
-@media only screen and (min-width: 400px) {
+@media only screen and (min-divice-width: 400px) {
     body { 
-        background-size: contain; 
+        background-size: contain;
+        width: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        overflow: hidden;
+        
     }
 }
-
 
 
 .hero-inner {
