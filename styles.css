@@ -97,11 +97,17 @@ body {
     color: #ececea !important;
 }
 
+ul {
+    white-space: nowrap;
+    min-width: 400px;
+}
+
 li {
     padding: 0px 20px 2px 20px;
     font-size: 1.25vw;
     letter-spacing: 2px;
     cursor: pointer;
+    display: inline-block;
 }
 
 li:hover {
