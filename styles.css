@@ -1,3 +1,4 @@
+
 html {
     overflow-x: hidden;
 }
@@ -36,8 +37,8 @@ body {
     max-height: auto;
     display: inline-block;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("back.jpg");
-    background-size: cover;
-    background-position: left;
+    background-size: contain;
+    background-position: top;
     background-repeat: no-repeat;
     background-attachment: fixed;
     overflow: hidden;
@@ -75,11 +76,10 @@ body {
 @media (max-width: 600px) {
     #title {
     position: absolute;
-    top: 23%;
+    top: 15%;
     font-family: 'Pacifico', cursive;
     width: 20vw;
     font-weight: lighter;
-    font-size: 3.5vw;
     text-align:center;
     text-transform: uppercase;
     cursor: default;
@@ -93,7 +93,7 @@ body {
     margin-top: 0;
     margin-bottom: 0.5em;
     width: 100vw;
-    height: 100vh;
+    height: 30vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -128,12 +128,7 @@ body {
 
 @media (max-width: 600px) {
     .glyphicon {
-    position: absolute;
-    content:"\e259";
-    top:90%;
-    font-size: 7vw;
-    cursor: pointer;
-    padding: 10px;
+        display: none;
     }
 }
 
@@ -194,8 +189,8 @@ li:hover {
 #about {
     position: relative;
     padding-top: 1px;
-    background-color: #2a3440;
-    color: #ececea;
+    background-color:#ececea ;
+    color: #2a3440;
     padding-bottom: 5vw;
 }
 #about_descript {
@@ -207,26 +202,23 @@ li:hover {
 	padding-left: 10px;
 	padding-top:10px;
 	font-weight: 200px;
-    text-align: center;
+    text-align: justify;
     font-size: 1vw;
     width: 50%;
     justify-content: center;
     position: relative;
-    left: 23.5%
+    left: 23.5%;
 }
 
 @media (max-width: 600px) {
     #about_descript {
     margin: 0px;
     margin-top:10px;
-	word-spacing: 5.5px;
-    letter-spacing: 1px;
 	line-height: normal;
-	font-size: 1em;
-	padding-left: 0px;
-	padding-top: 0px;
+	font-size: 3.5vw;
+	padding: 20px 25px 40px 25px;
 	font-weight: 100px;
-    text-align: center;
+    text-align: justify;
     width: 100%;
     justify-content: center;
     position: relative;
@@ -243,17 +235,24 @@ h2 {
 	padding-top: 20px;
     padding-top: 30px;
     font-weight: bold;
-    letter-spacing: 10px
+    letter-spacing: 10px;
+}
+
+@media (max-width: 600px) {
+    h2 {
+        font-size: 1em;
+        padding-top: 0px;
+    }
 }
 
 /*PROJECTS SECTION*/
 #projects {
-    background-color: #ececea;
+    background-color: ;
     text-transform: uppercase;
     padding-top: 0.1px;
     padding-bottom: 5vw;
+    background-color: #2a3440;
 }
-
 
 h3 {
     text-align: center;
@@ -262,7 +261,15 @@ h3 {
 	padding-top: 20px;
     padding-top: 30px;
     font-weight: bold;
-    letter-spacing: 10px
+    letter-spacing: 10px;
+    color: #ececea
+}
+
+@media (max-width: 600px) {
+    h3 {
+        position: relative;
+        left: 1%;
+    }
 }
 
 #comingsoon {
@@ -278,15 +285,32 @@ h3 {
     width: 50%;
     justify-content: center;
     position: relative;
-    left: 23.5%
+    left: 23.5%;
+    color: #ececea;
     
 }
 
+@media(max-width: 600px) {
+    #comingsoon {
+        margin: 0px;
+    margin-top:10px;
+	line-height: normal;
+	font-size: 1em;
+	padding: 20px 25px 40px 25px;
+	font-weight: 100px;
+    text-align: justify;
+    width: 100%;
+    justify-content: center;
+    position: relative;
+    left: 0%;
+    display: flex;
+    }
+}
 /*CONTACT FORM*/
 #contact {
     padding-top: 0.1vw;
-    background-color: #2a3440;
-    color: #ececea;
+    background-color: #ececea;
+    color: #2a3440;
     padding-bottom: 1vw;
 }
 
@@ -345,6 +369,12 @@ textarea {
 	background:url(images/textarea-bg.jpg) right no-repeat #efefef;
 }
 
+@media (max-width:600px) {
+    input, textarea {
+        width: 400px;
+    }
+}
+
 #submit {
     width:127px;
     height:38px;
@@ -356,6 +386,12 @@ textarea {
 	#submit:hover {
 	    opacity:.9;
 	}
+@media (max-width:  600px) {
+    #submit {
+        left: 140px;
+        margin-bottom: 3px;
+    }
+}
 
 /*FOOTER*/
 footer {
@@ -380,6 +416,20 @@ footer {
     user-select: none;
 }
 
+@media (max-width:600px) {
+    .fab {
+    font-size: 1.5em;
+    margin: 2rem;
+    border: 1px solid #2a3440;
+    width: 50px;
+    padding: 13px;
+    background-color: #2a3440;
+    color: #ececea;
+    text-decoration:none !important;
+    user-select: none;
+    }
+}
+
 .fab:hover {
     color: #2a3440;
     transform: scale(0.90);
@@ -393,13 +443,3 @@ footer {
     position: relative;
 }
     
-
-
-
-
-@media (max-width: 600px) {
-    #title { 
-        font-size: 9vw;
-        width: 50%;
-    }
-}
