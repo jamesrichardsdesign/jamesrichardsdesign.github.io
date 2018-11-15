@@ -297,18 +297,20 @@ h3 {
     padding-top: 4vw;
     padding-bottom: 5vw;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("back.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
     background-position: left;
 }
 
 #comingsoon {
     text-align: center;
-	font-size: 1.5em;
-	text-transform: uppercase;
-    font-weight: bold;
-    letter-spacing: 10px;
-    padding: 7vw 0px 7vw 0px;
+    padding: 10vw 0px 12vw 0px;
     background-color: #ececea;
     margin-top: -10px;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+    font-size: 1vw;
 }
 
 
@@ -337,6 +339,9 @@ h4 {
     letter-spacing: 10px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("back.jpg");
     background-position: bottom;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
     color: #ececea;
     
 }
@@ -462,4 +467,7 @@ footer {
 .copyright {
     position: relative;
 }
+    
+
+
     
