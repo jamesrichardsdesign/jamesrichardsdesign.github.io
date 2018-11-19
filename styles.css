@@ -133,7 +133,7 @@ body {
 
 
 /* Galaxy s9+ */
-@media only screen and (min-width: 360px) and (max-width: 767px) {
+@media only screen and (min-width: 360px) and (orientation: portrait) {
       .hero {
         max-width: 100%;
         margin-bottom: -550px;
@@ -150,7 +150,7 @@ body {
 }
 
 
-@media only screen and (min-width: 360px) and (max-width: 767px) {
+@media only screen and (min-width: 360px) and (orientation: portrait) {
     #title {
         position: absolute;
         top: 12%;
@@ -255,7 +255,7 @@ li:hover {
 }
 
 /*GALAXY S9 PLUS */
-@media only screen and (min-width: 360px) and (max-width: 767px) {
+@media only screen and (min-width: 360px) and (orientation: portrait) {
         li {
         padding: 0px 6px 0px 30px;
         font-size: 2vw;
@@ -263,7 +263,7 @@ li:hover {
         }
 }
 
-@media only screen and (min-width: 360px) and (max-width: 767px) {
+@media only screen and (orientation: portrait) {
     ul {
     display: flex;
     width: 100%;
@@ -354,7 +354,7 @@ h2 {
 
 /* GALAXY S9 PLUS */
 
-@media only screen and (min-width: 360px) and (max-width: 767px) {
+@media only screen and (min-width: 360px) and (orientation: portrait) {
         #about {
             position: relative;
             padding-top: 1px;
@@ -364,7 +364,7 @@ h2 {
         }
 }
 
-@media only screen and (min-width: 360px) and (max-width: 767px) {
+@media only screen and (min-width: 360px) and (orientation: portrait) {
         h2 {
             text-align: center;
             font-size: 1em;
@@ -375,7 +375,7 @@ h2 {
         }
 }
 
-@media only screen and (min-width: 360px) and (max-width: 767px) {
+@media only screen and (min-width: 360px) and (orientation: portrait) {
         #about_descript {
             margin: 20px;
             word-spacing: 1px;
@@ -479,7 +479,7 @@ h3 {
 }
 
 /*GALAXY S9 PLUS*/
-@media only screen and (min-width: 360px) and (max-width: 767px) {
+@media only screen and (min-width: 360px) and (orientation: portrait) {
         h3 {
         text-align: center;
         font-size: 1em;
@@ -495,7 +495,7 @@ h3 {
         }
 }
 
-@media only screen and (min-width: 360px) and (max-width: 767px) {
+@media only screen and (min-width: 360px) and (orientation: portrait) {
        #comingsoon {
             font-size: 0.8em;
         }
@@ -560,7 +560,7 @@ label {
 }
 
 /*GALAXY S9 PLUS */
-@media only screen and (min-width: 360px) and (max-width: 767px) {
+@media only screen and (min-width: 360px) and (orientation: portrait) {
        h4 {
             font-size: 1em;
             background-image: none;
@@ -652,13 +652,13 @@ textarea {
 }
 
 /*GALAXY S9 PLUS*/
-@media only screen and (min-width: 360px) and (max-width: 767px) {
+@media only screen and (min-width: 360px) and (orientation: portrait) {
         input, textarea {
             width: 360px;
         }
 }
 
-@media only screen and (min-width: 360px) and (max-width: 767px) {
+@media only screen and (min-width: 360px) and (orientation: portrait) {
         #submit {
         left: 118px;
         }
@@ -718,7 +718,7 @@ footer {
 }
 
 /*GALAXY S9 PLUS */
-@media only screen and (min-width: 360px) and (max-width: 767px) {
+@media only screen and (min-width: 360px) and (orientation: portrait) {
         .fab {
             font-size: 1.5em;
             margin: 1.8rem;
