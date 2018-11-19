@@ -136,7 +136,7 @@ body {
 @media only screen and (min-width: 360px) and (orientation: portrait) {
       .hero {
         max-width: 100%;
-        margin-bottom: -550px;
+        margin-bottom: -152%;
         max-height: auto;
         display: inherit;
         background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("back.jpg");
@@ -155,7 +155,7 @@ body {
         position: absolute;
         top: 12%;
         font-family: 'Pacifico', cursive;
-        width: 50%;
+        width: 40%;
         font-weight: lighter;
         text-align:center;
         text-transform: uppercase;
@@ -654,13 +654,13 @@ textarea {
 /*GALAXY S9 PLUS*/
 @media only screen and (min-width: 360px) and (orientation: portrait) {
         input, textarea {
-            width: 360px;
+            width: 78.5%;
         }
 }
 
 @media only screen and (min-width: 360px) and (orientation: portrait) {
         #submit {
-        left: 118px;
+        left: 26%;
         }
 }
 
