@@ -559,16 +559,14 @@ label {
         }
 }
 
-@media (device-width : 360px), (device-height : 740px) {
+/*GALAXY S9 PLUS */
+@media only screen and (min-width: 360px) and (max-width: 767px) {
        h4 {
             font-size: 1em;
             background-image: none;
             background-color: #2a3440;
         }
 }
-
-/*GALAXY S9 PLUS */
-
 
 /* Centre the form within the page */
 form {
