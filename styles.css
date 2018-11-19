@@ -133,7 +133,7 @@ body {
 
 
 /* Galaxy s9+ */
-@media (device-width : 360px), (device-height : 740px) {
+@media only screen and (min-width: 360px) and (max-width: 767px) {
       .hero {
         max-width: 100%;
         margin-bottom: -550px;
@@ -150,7 +150,7 @@ body {
 }
 
 
-@media (device-width : 360px), (device-height : 740px) {
+@media only screen and (min-width: 360px) and (max-width: 767px) {
     #title {
         position: absolute;
         top: 12%;
@@ -354,7 +354,7 @@ h2 {
 
 /* GALAXY S9 PLUS */
 
-@media (device-width : 360px), (device-height : 740px) {
+@media only screen and (min-width: 360px) and (max-width: 767px) {
         #about {
             position: relative;
             padding-top: 1px;
@@ -364,7 +364,7 @@ h2 {
         }
 }
 
-@media (device-width : 360px), (device-height : 740px) {
+@media only screen and (min-width: 360px) and (max-width: 767px) {
         h2 {
             text-align: center;
             font-size: 1em;
@@ -375,7 +375,7 @@ h2 {
         }
 }
 
-@media (device-width : 360px), (device-height : 740px) {
+@media only screen and (min-width: 360px) and (max-width: 767px) {
         #about_descript {
             margin: 20px;
             word-spacing: 1px;
@@ -731,11 +731,6 @@ footer {
             user-select: none;
     }
 }
-
-
-
-
-
 
 
 
