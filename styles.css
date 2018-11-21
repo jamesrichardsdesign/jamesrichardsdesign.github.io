@@ -655,6 +655,7 @@ textarea {
 @media only screen and (min-width: 360px) and (orientation: portrait) {
         input, textarea {
             width: 100%;
+	    left: 10%;
         }
 }
 
