@@ -654,17 +654,9 @@ textarea {
 /*GALAXY S9 PLUS*/
 @media only screen and (min-width: 360px) and (orientation: portrait) {
         input, textarea {
-            width: 76.5%
+            width: 66.5%
         }
 }
-
-@media only screen and (min-width: 360px) and (orientation: portrait) {
-        #submit {
-        left: 10%;
-        }
-}
-
-
 
 /*FOOTER*/
 footer {
