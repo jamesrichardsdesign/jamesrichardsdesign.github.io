@@ -257,7 +257,7 @@ li:hover {
 /*GALAXY S9 PLUS */
 @media only screen and (min-width: 360px) and (orientation: portrait) {
         li {
-        padding: 0px 6px 0px 37px;
+        padding: 0px 6px 0px 39px;
         font-size: 2vw;
         position: relative;
         }
@@ -654,14 +654,13 @@ textarea {
 /*GALAXY S9 PLUS*/
 @media only screen and (min-width: 360px) and (orientation: portrait) {
         input, textarea {
-            width: 76.5%;
-	    left: 5%;
+            width: 76.5%
         }
 }
 
 @media only screen and (min-width: 360px) and (orientation: portrait) {
         #submit {
-        left: 30%;
+        left: 10%;
         }
 }
 
