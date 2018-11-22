@@ -59,6 +59,8 @@ body {
 }
 /* MEDIA QUERIES */
 
+/*IPHONE 6/7/8 */
+
 /* iphone 6/7/8 plus */
 @media only screen
     and (device-width : 414px) 
@@ -166,11 +168,6 @@ body {
         
     }
 }
-
-
-
-
-
 
 .glyphicon {
     position: absolute;
@@ -311,6 +308,13 @@ h2 {
     
 }
 
+/* IPHONE 6/7/8 */
+@media only screen and (device-width: 375px) and (orientation: portrait) {
+    #about {
+        margin-top: 105px;
+    }
+}
+
 /* IPHONE 6/7/8 PLUS */
 @media only screen
     and (device-width : 414px) 
@@ -340,6 +344,8 @@ h2 {
         padding-top: 0px;
     }
 }
+
+
 
 /*IPHONE 10 */
 @media only screen 
@@ -654,19 +660,19 @@ textarea {
 /*GALAXY S9 PLUS*/
 @media only screen and (min-width: 360px) and (orientation: portrait) {
         input, textarea {
-		width:355px;
+            width:360px;
+        }
+}
+
+@media only screen and (min-width: 360px) and (orientation: portrait) {
+    textarea {
+        height: 150px;
     }
 }
 
 @media only screen and (min-width: 360px) and (orientation: portrait) {
-    	textarea {
-        	height: 150px;
-    }
-}
-
-@media only screen and (min-width: 360px) and (orientation: portrait) {
-    	#submit{
-        	left: 25%;
+    #submit{
+        left: 25%;
     }
 }
 
@@ -735,6 +741,3 @@ footer {
             user-select: none;
     }
 }
-
-
-
