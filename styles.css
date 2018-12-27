@@ -236,40 +236,21 @@ li:hover {
   background-color: #171b24;
   transition: background-color 1s ease 0s;
 }
-
-@media (max-width: 600px) {
-    ul {
-        display: flex;
-    }
-}
-@media (max-width: 600px) {
-    li {
-        padding: 0px 20px 0px 20px;
-        font-size: 3vw;
-        position: relative;
-        left: 24px;
-    }
-}
-
-/*GALAXY S9 PLUS */
-@media only screen and (min-width: 360px) and (orientation: portrait) {
-        li {
-        padding: 0px 6px 0px 39px;
-        font-size: 2vw;
-        position: relative;
-        }
-}
-
-@media only screen and (min-width: 360px) and (orientation: portrait) {
-    ul {
-    display: flex;
+/*HAMBURGER MENU*/
+.fas {
     width: 100%;
-    text-align: center;
-    }
+    background-color: transparent;
+    overflow: hidden;
+    border: none;
+    z-index: 100;
+
 }
 
-
-
+@media (min-width: 600px)  {
+    #burger {
+        display: none;
+    }
+}
 
 /*ABOUT SECTION*/
 #about {
@@ -419,7 +400,7 @@ h3 {
     color: #ececea;
     padding-top: 4vw;
     padding-bottom: 5vw;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("back.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("back2.jpg");
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
@@ -523,7 +504,7 @@ h4 {
     padding-bottom: 5vw;
     font-weight: bold;
     letter-spacing: 10px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("back.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("back3.jpg");
     background-position: center;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -660,7 +641,7 @@ textarea {
 /*GALAXY S9 PLUS*/
 @media only screen and (min-width: 360px) and (orientation: portrait) {
         input, textarea {
-            width:360px;
+            width:355px;
         }
 }
 
