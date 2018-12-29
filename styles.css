@@ -288,9 +288,11 @@ li:hover {
     }
 
     .navbar.solid {
+    display: none;
+    }
+    
+    .navbar.mobileSolid {
     background-color: #171b24;
-    transition: background-color 1s ease 0s;
-    border-top: 1px solid white;
     }
 }
 
