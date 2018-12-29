@@ -6,7 +6,7 @@ $(document).ready(function(){
             scrollTop: $("#about").offset().top},
                                'slow');    
     })
-    
+
     //NAV BORDER APPEAR WHEN SCROLL
     function navBorder() { 
      if (window.matchMedia("(min-width: 600px)").matches) {
@@ -43,10 +43,11 @@ $(document).ready(function(){
     //HAMBURGER MENU TOGGLE
     function hamburgerToggle() {
         if (window.matchMedia("(max-width: 600px)").matches) {
-            $('.nav').hide();
+            $('.navbar').hide();
         }
         $('#burger').click(function(){
-            $('.nav').toggle(); 
+            $('.navbar').addClass('mobileSolid');
+            $('.navbar, .mobileSolid').slideToggle("fast");
         });
     }
     hamburgerToggle();
