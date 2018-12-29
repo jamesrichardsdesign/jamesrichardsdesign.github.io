@@ -8,14 +8,19 @@ $(document).ready(function(){
     })
     
     //NAV BORDER APPEAR WHEN SCROLL
-     $(window).scroll(function() {
-          // checks if window is scrolled more than 500px, adds/removes solid class
-        if($(this).scrollTop() > 1) { 
-            $('.navbar').addClass('solid');
-        } else {
-            $('.navbar').removeClass('solid');
-        }
-    })
+    function navBorder() { 
+     if (window.matchMedia("(min-width: 600px)").matches) {
+        $(window).scroll(function() {
+            // checks if window is scrolled more than 500px, adds/removes solid class
+            if($(this).scrollTop() > 1) { 
+                $('.navbar').addClass('solid');
+            } else {
+                $('.navbar').removeClass('solid');
+            }
+        });
+     }
+    }
+    navBorder();
     
     //NAV BAR BUTTON SCROLL
     function scrollNav() {
@@ -31,9 +36,19 @@ $(document).ready(function(){
             }, 400);
             return false;
         });
-//  $('.scrollTop a').scrollTop();
+    //$('.scrollTop a').scrollTop();
     }
     scrollNav(); 
-
-});
     
+    //HAMBURGER MENU TOGGLE
+    function hamburgerToggle() {
+        if (window.matchMedia("(max-width: 600px)").matches) {
+            $('.nav').hide();
+        }
+        $('#burger').click(function(){
+            $('.nav').toggle(); 
+        });
+    }
+    hamburgerToggle();
+    
+});
