@@ -237,18 +237,60 @@ li:hover {
   transition: background-color 1s ease 0s;
 }
 /*HAMBURGER MENU*/
-.fas {
+
+#burger {
+    position: fixed;
+    padding: 5px 10px 10px 5px;
+    font-size: 20px;
+    color: white;
+    background-color: #2a3440;
+    width: 100%;
+    z-index: 100;
+    -webkit-transition: all ease-in-out 350ms;
+    transition: all ease-in-out 350ms;
+}
+
+@media (min-width: 600px) {
+    #burger {
+        display: none;
+    }
+}
+
+@media (max-width: 600px) {
+    .navbar {
     width: 100%;
     background-color: transparent;
     overflow: hidden;
     border: none;
     z-index: 100;
+    top: 4.7%;
+    }
 
-}
+    .nav li a {
+    color: #ececea !important;
+    }
 
-@media (min-width: 600px)  {
-    #burger {
-        display: none;
+    ul {
+    display: inline-block;
+    width: 100%;
+    text-align: left;
+    }   
+
+    li {
+    font-size: 3.25vw;
+    letter-spacing: 2px;
+    cursor: pointer;
+    }
+
+    li:hover {
+    opacity: 0.5;
+    transition: 0.3s;
+    }
+
+    .navbar.solid {
+    background-color: #171b24;
+    transition: background-color 1s ease 0s;
+    border-top: 1px solid white;
     }
 }
 
