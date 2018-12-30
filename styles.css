@@ -669,7 +669,7 @@ textarea {
     and (device-width : 375px) 
     and (device-height : 812px) {
         #submit {
-        left: 125px;
+        left: 145px;
         }
 }
 
@@ -688,7 +688,7 @@ textarea {
 
 @media only screen and (min-width: 360px) and (orientation: portrait) {
     #submit{
-        left: 25%;
+        left: 35%;
     }
 }
 
