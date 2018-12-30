@@ -690,7 +690,7 @@ textarea {
     	}
 	#submit {
         position: relative;
-	left: 60px;
+	left: 30%; !important
     	} 
     	form {
         width: 99%;
