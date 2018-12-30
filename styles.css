@@ -147,7 +147,7 @@ body {
 @media only screen and (min-width: 360px) and (orientation: portrait) {
     #title {
         position: absolute;
-        top: 14%;
+        top: 15%;
         font-family: 'Pacifico', cursive;
         width: 40%;
         font-weight: lighter;
@@ -682,17 +682,17 @@ textarea {
 /*GALAXY S9 PLUS*/
 @media only screen and (min-width: 360px) and (orientation: portrait) {
         input, textarea {
-	width: 100%;
+	width: 99%;
 	position: relative;
         }
 	textarea {
         height: 150px;
     	}
 	#submit{
-        left: 30%;
+        left: 32%;
     	} 
     	form {
-        width: 100%;
+        width: 99%;
 	position: relative;
 	left 30%;
         }
