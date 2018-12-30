@@ -615,6 +615,7 @@ input, textarea {
     border-width: 1px;
     border-color: #171b24;
     background-color: #ececea;
+    position: relative;
 }
 
 input:focus, textarea:focus {
@@ -691,8 +692,7 @@ textarea {
 /*GALAXY S9 PLUS*/
 @media only screen and (min-width: 360px) and (orientation: portrait) {
         input, textarea {
-	width: 355px;
-	left: 15%;	
+	width: 100%;	
         }
 }
 
@@ -707,7 +707,7 @@ textarea {
         left: 25%;
     } 
     form {
-        width: 360px;
+        width: 100%;
         }
 }
 
