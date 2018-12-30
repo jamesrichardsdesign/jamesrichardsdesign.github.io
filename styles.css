@@ -663,29 +663,19 @@ textarea {
     and (device-width : 375px) 
     and (device-height : 812px) {
         input, textarea {
-            width:439px;
-    height:27px;
-    background:#efefef;
-    border:1px solid #dedede;
-    padding:10px;
-    margin-top:3px;
-    font-size:0.9em;
-    -moz-border-radius:10px;
-    -webkit-border-radius:10px;
-    border-radius:0px;
-    font-weight: bold;
-    letter-spacing: 1px;
-    border-width: 1px;
-    border-color: #171b24;
-    background-color: #ececea;
+	width: 100%;
+	position: relative;
         }
-}
-
-@media only screen
-    and (device-width : 375px) 
-    and (device-height : 812px) {
-        #submit {
+	textarea {
+        height: 150px;
+    	}
+	#submit{
         left: 30%;
+    	} 
+    	form {
+        width: 100%;
+	position: relative;
+	left 30%;
         }
 }
 
@@ -695,19 +685,13 @@ textarea {
 	width: 100%;
 	position: relative;
         }
-}
-
-@media only screen and (min-width: 360px) and (orientation: portrait) {
-    textarea {
+	textarea {
         height: 150px;
-    }
-}
-
-@media only screen and (min-width: 360px) and (orientation: portrait) {
-    #submit{
+    	}
+	#submit{
         left: 30%;
-    } 
-    form {
+    	} 
+    	form {
         width: 100%;
 	position: relative;
 	left 30%;
