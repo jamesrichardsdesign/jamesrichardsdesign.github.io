@@ -595,6 +595,7 @@ form {
     margin:0 auto;
     width:459px;
     padding-top: 1vw;
+    position: relative;
 }
 
 /* Style the text boxes */
