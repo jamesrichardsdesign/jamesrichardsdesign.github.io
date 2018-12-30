@@ -661,7 +661,21 @@ textarea {
     and (device-width : 375px) 
     and (device-height : 812px) {
         input, textarea {
-            width: 375px;
+            width:439px;
+    height:27px;
+    background:#efefef;
+    border:1px solid #dedede;
+    padding:10px;
+    margin-top:3px;
+    font-size:0.9em;
+    -moz-border-radius:10px;
+    -webkit-border-radius:10px;
+    border-radius:0px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    border-width: 1px;
+    border-color: #171b24;
+    background-color: #ececea;
         }
 }
 
@@ -689,8 +703,11 @@ textarea {
 
 @media only screen and (min-width: 360px) and (orientation: portrait) {
     #submit{
-        left: 30%;
-    }
+        left: 25%;
+    } 
+    form {
+        width: 99%;
+        }
 }
 
 /*FOOTER*/
