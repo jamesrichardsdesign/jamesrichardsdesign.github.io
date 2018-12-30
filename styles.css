@@ -689,7 +689,8 @@ textarea {
         height: 150px;
     	}
 	#submit{
-        left: 33%;
+        left: 35%;
+	position: relative;
     	} 
     	form {
         width: 99%;
