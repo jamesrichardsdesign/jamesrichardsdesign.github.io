@@ -57,6 +57,28 @@ body {
     -mozilla- user-select: none;
     color: white;
 }
+
+.glyphicon {
+    position: absolute;
+    content:"\e259";
+    top:90%;
+    font-size: 2vw;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.glyphicon:hover {
+    opacity: 0.5;
+    transition: 0.3s;
+}
+
+.glyphicon:hover {
+    border-style: solid;
+    border-width: thin;
+    border-radius: 100px;
+    transition: 0.8s;
+}
+
 /* MEDIA QUERIES */
 
 /*IPHONE 6/7/8 */
@@ -88,12 +110,12 @@ body {
     }
 }
 
-
+/*MEDIA QUERIES///////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 /* iphone 6/7/8 plus */
 @media only screen
     and (device-width : 414px) 
     and (device-height : 736px) {
-       .hero {
+    .hero {
     max-width: 100%;
     margin-bottom: -5px;
     max-height: auto;
@@ -159,98 +181,77 @@ body {
 
 
 @media only screen and (min-width: 360px) and (orientation: portrait) {
+    
     #title {
-        position: absolute;
-        top: 12%;
-        font-family: 'Pacifico', cursive;
-        width: 40%;
-        font-weight: lighter;
-        text-align:center;
-        text-transform: uppercase;
-        cursor: default;
-        user-select: none;
-        color: white;
-        font-size: 1.3em;
-        
+    position: absolute;
+    top: 12%;
+    font-family: 'Pacifico', cursive;
+    width: 40%;
+    font-weight: lighter;
+    text-align:center;
+    text-transform: uppercase;
+    cursor: default;
+    user-select: none;
+    color: white;
+    font-size: 1.3em;
     }
 }
 
-.glyphicon {
-    position: absolute;
-    content:"\e259";
-    top:90%;
-    font-size: 2vw;
-    cursor: pointer;
-    padding: 10px;
-}
-
-.glyphicon:hover {
-    opacity: 0.5;
-    transition: 0.3s;
-}
-
-.glyphicon:hover {
-    border-style: solid;
-    border-width: thin;
-    border-radius: 100px;
-    transition: 0.8s;
-}
-
-@media (max-width: 600px) {
+    @media (max-width: 600px) {
     .glyphicon {
-        display: none;
+    display: none;
     }
 }
 
 @media only screen and (device-width: 375px) and (orientation: portrait) {
     #title {
-        top: 15%;
-        }
+    top: 15%;
+    }
 }
 
-@media only screen
-    and (device-width : 414px) 
-    and (device-height : 736px) {
-        #title {
-        top: 18%
-        }
+@media only screen and (device-width : 414px) and (device-height : 736px) {
+    #title {
+    top: 18%
+    }
 }
 
 /* IPAD */
 
 @media only screen and (device-width : 1024px) and (device-height : 1366px) {
     .hero {
-        max-width: 100%;
-        margin: 0% 0% 0% 0%;
-        max-height: auto;
-        display: inherit;
-        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("back.jpg");
-        background-size: cover;
-        background-position: top;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        overflow: hidden;
-        }
+    max-width: 100%;
+    margin: 0% 0% 0% 0%;
+    max-height: auto;
+    display: inherit;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("back.jpg");
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow: hidden;
+    }
     
     #title {
-        position: absolute;
-        top: 55%;
-        font-family: 'Pacifico', cursive;
-        width: 55vw;
-        font-weight: lighter;
-        font-size: 7.5vw;
-        text-align:center;
-        text-transform: uppercase;
-        cursor: default;
-        user-select: none;
-        -mozilla- user-select: none;
-        color: white;
-        }
+    position: absolute;
+    top: 55%;
+    font-family: 'Pacifico', cursive;
+    width: 55vw;
+    font-weight: lighter;
+    font-size: 7.5vw;
+    text-align:center;
+    text-transform: uppercase;
+    cursor: default;
+    user-select: none;
+    -mozilla- user-select: none;
+    color: white;
+    }
         
     .glyphicon {
-        font-size: 5vw;
+    font-size: 5vw;
     }
 }
+
+
 
 /*NAV BAR*/
 .navbar {
@@ -360,7 +361,7 @@ li:hover {
 
 @media only screen and (device-width : 1024px) and (device-height : 1366px) {
     li {
-        font-size: 2vw;
+    font-size: 2vw;
     }
 }
 
@@ -404,7 +405,7 @@ h2 {
 /* IPHONE 6/7/8 */
 @media only screen and (device-width: 375px) and (orientation: portrait) {
     #about {
-        margin-top: 105px;
+    margin-top: 105px;
     }
 }
 
@@ -433,63 +434,60 @@ h2 {
     and (device-width : 414px) 
     and (device-height : 736px) {
     h2 {
-        font-size: 1em;
-        padding-top: 0px;
+    font-size: 1em;
+    padding-top: 0px;
     }
 }
 
 
 
 /*IPHONE 10 */
-@media only screen 
-    and (device-width : 375px) 
-    and (device-height : 812px) 
-    and (-webkit-device-pixel-ratio : 3) { 
-        #about_descript {
-            left: -5%;
-            margin-bottom: -2px;
-        }
+@media only screen and (device-width : 375px) and (device-height : 812px) and (-webkit-device-pixel-ratio : 3) { 
+    #about_descript {
+    left: -5%;
+    margin-bottom: -2px;
+    }
 }
 
 /* GALAXY S9 PLUS */
 
 @media only screen and (min-width: 360px) and (orientation: portrait) {
         #about {
-            position: relative;
-            padding-top: 1px;
-            background-color:#ececea ;
-            color: #2a3440;
-            padding-bottom: 5vw;
+        position: relative;
+        padding-top: 1px;
+        background-color:#ececea ;
+        color: #2a3440;
+        padding-bottom: 5vw;
         }
 }
 
 @media only screen and (min-width: 360px) and (orientation: portrait) {
         h2 {
-            text-align: center;
-            font-size: 1em;
-            text-transform: uppercase;
-            padding-top: 30px;
-            font-weight: bold;
-            letter-spacing: 10px;
+        text-align: center;
+        font-size: 1em;
+        text-transform: uppercase;
+        padding-top: 30px;
+        font-weight: bold;
+        letter-spacing: 10px;
         }
 }
 
 @media only screen and (min-width: 360px) and (orientation: portrait) {
         #about_descript {
-            margin: 20px;
-            word-spacing: 1px;
-            letter-spacing: 1px;
-            line-height: 15px;
-            padding-left: 20px;
-            padding-right: 20px;
-            padding-top: 0px;
-            font-weight: lighter;
-            text-align: justify;
-            font-size: 0.6em;
-            width: 88%;
-            justify-content: center;
-            position: relative;
-            left: 0%;
+        margin: 20px;
+        word-spacing: 1px;
+        letter-spacing: 1px;
+        line-height: 15px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 0px;
+        font-weight: lighter;
+        text-align: justify;
+        font-size: 0.6em;
+        width: 88%;
+        justify-content: center;
+        position: relative;
+        left: 0%;
         }
 }
 
@@ -564,74 +562,66 @@ h3 {
 }
 
 /*IPHONE 6/7/8 PLUS */
-@media only screen
-    and (device-width : 414px) 
-    and (device-height : 736px) {
+@media only screen and (device-width : 414px) and (device-height : 736px) {
     #comingsoon {
-        font-size: 0.9em;
-        padding-right: 10px;
+    font-size: 0.9em;
+    padding-right: 10px;
     }
 }
 
-@media only screen
-    and (device-width : 414px) 
-    and (device-height : 736px) {
+@media only screen and (device-width : 414px) and (device-height : 736px) {
     h3 {
-        position: relative;
-        padding-left:5px;
-        font-size: 1em;
-        background-image: none;
-        background-color: #2a3440;
+    position: relative;
+    padding-left:5px;
+    font-size: 1em;
+    background-image: none;
+    background-color: #2a3440;
     }
 }
 
 /*IPHONE 6/7/8 PLUS */
-@media only screen
-    and (device-width : 375px) 
-    and (device-height : 812px) {
+@media only screen and (device-width : 375px) and (device-height : 812px) {
     h3 {
-        text-align: center;
-        font-size: 1em;
-        text-transform: uppercase;
-        font-weight: bold;
-        letter-spacing: 10px;
-        color: #ececea;
-        padding-top: 4vw;
-        padding-bottom: 5vw;
-        background-image: none;
-        background-color: #2a3440;  
-        }
+    text-align: center;
+    font-size: 1em;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 10px;
+    color: #ececea;
+    padding-top: 4vw;
+    padding-bottom: 5vw;
+    background-image: none;
+    background-color: #2a3440;  
+    }
 }
 
-@media only screen
-    and (device-width : 375px) 
-    and (device-height : 812px) {
-        #comingsoon {
-            font-size: 0.8em;
-        }
+@media only screen and (device-width : 375px) and (device-height : 812px) {
+    #comingsoon {
+    font-size: 0.8em;
+    }
 }
 
 /*GALAXY S9 PLUS*/
 @media only screen and (min-width: 360px) and (orientation: portrait) {
-        h3 {
-        text-align: center;
-        font-size: 1em;
-        text-transform: uppercase;
-        font-weight: bold;
-        letter-spacing: 10px;
-        color: #ececea;
-        padding-top: 4vw;
-        padding-bottom: 5vw;
-        padding-left: 2vw;
-        background-image: none;
-        background-color: #2a3440;
-        }
+    h3 {
+    text-align: center;
+    font-size: 1em;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 10px;
+    color: #ececea;
+    padding-top: 4vw;
+    padding-bottom: 5vw;
+    padding-left: 2vw;
+    background-image: none;
+    background-color: #2a3440;
+    }
 }
 
 @media only screen and (min-width: 360px) and (orientation: portrait) {
-       #comingsoon {
-            font-size: 0.8em;
-        }
+    #comingsoon {
+    font-size: 0.8em;
+    }
 }
 
 @media only screen and (device-width : 1024px) and (device-height : 1366px) {
@@ -665,7 +655,7 @@ h3 {
     word-spacing: 5px;
     letter-spacing: 2px;
     font-size: 2vw;
-}
+}   
 }
 
 /*CONTACT FORM*/
@@ -706,32 +696,28 @@ label {
 }
 
 /*IPHONE 10 */
-@media only screen
-    and (device-width : 375px) 
-    and (device-height : 812px) {
+@media only screen and (device-width : 375px) and (device-height : 812px) {
         h4 {
-            background-image: none;
-            background-color: #2a3440;
+        background-image: none;
+        background-color: #2a3440;
         }
 }
 
 /*IPHONE 6/7/8 PLUS */
-@media only screen
-    and (device-width : 414px) 
-    and (device-height : 736px) {
+@media only screen and (device-width : 414px) and (device-height : 736px) {
         h4 {
-            font-size: 1em;
-            background-image: none;
-            background-color: #2a3440;
+        font-size: 1em;
+        background-image: none;
+        background-color: #2a3440;
         }
 }
 
 /*GALAXY S9 PLUS */
 @media only screen and (min-width: 360px) and (orientation: portrait) {
        h4 {
-            font-size: 1em;
-            background-image: none;
-            background-color: #2a3440;
+        font-size: 1em;
+        background-image: none;
+        background-color: #2a3440;
         }
 }
 
@@ -771,11 +757,9 @@ textarea {
 	background:url(images/textarea-bg.jpg) right no-repeat #ececea;
 }
 
-@media only screen
-    and (device-width : 414px) 
-    and (device-height : 736px) {
+@media only screen and (device-width : 414px) and (device-height : 736px) {
     input, textarea {
-        width: 400px;
+     width: 400px;
     }
 }
 
@@ -787,70 +771,65 @@ textarea {
     left: 35%;
 }
 
-	#submit:hover {
-	    opacity:.5;
-        transition: 0.1s;
-	}
+#submit:hover {
+    opacity:.5;
+    transition: 0.1s;
+}
 
 /*IPHONE 6/7/8 PLUS */
-@media only screen
-    and (device-width : 414px) 
-    and (device-height : 736px) {
+@media only screen and (device-width : 414px)  and (device-height : 736px) {
     #submit {
-        left: 140px;
-        margin-bottom: 3px;
+    left: 140px;
+    margin-bottom: 3px;
     }
 }
 
 /*IPHONE 10 */
-@media only screen
-    and (device-width : 375px) 
-    and (device-height : 812px) {
-        input, textarea {
-            width: 375px;
-        }
+@media only screen and (device-width : 375px)  and (device-height : 812px) {
+    input, textarea {
+    width: 375px;
+    }
 }
 
-@media only screen
-    and (device-width : 375px) 
-    and (device-height : 812px) {
-        #submit {
-        left: 125px;
-        }
+@media only screen and (device-width : 375px) and (device-height : 812px) {
+    #submit {
+    left: 125px;
+    }
 }
 
 /*GALAXY S9 PLUS*/
 @media only screen and (min-width: 360px) and (orientation: portrait) {
-        input, textarea {
-            width:300px;
-            height:27px;
-            background:#efefef;
-            border:1px solid #dedede;
-            margin-top:3px;
-            font-size:0.9em;
-            -moz-border-radius:10px;
-            -webkit-border-radius:10px;
-            border-radius:0px;
-            font-weight: bold;
-            letter-spacing: 1px;
-            border-width: 1px;
-            border-color: #171b24;
-            background-color: #ececea;
-        }
-        form {
-            width: 83%;
-        }
+    input, textarea {
+    width:300px;
+    height:27px;
+    background:#efefef;
+    border:1px solid #dedede;
+    margin-top:3px;
+    font-size:0.9em;
+    -moz-border-radius:10px;
+    -webkit-border-radius:10px;
+    border-radius:0px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    border-width: 1px;
+    border-color: #171b24;
+    background-color: #ececea;
+    }
+        
+    form {
+    width: 83%;
+    }
 }
 
 @media only screen and (min-width: 360px) and (orientation: portrait) {
     textarea {
-        height: 150px;
+    height: 150px;
     }
 }
 
 @media only screen and (min-width: 360px) and (orientation: portrait) {
     #submit{
-        left: 48.5vw;
+    left: 48.5vw;
     }
 }
 
