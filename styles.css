@@ -110,7 +110,6 @@ body {
     }
 }
 
-/*MEDIA QUERIES///////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 /* iphone 6/7/8 plus */
 @media only screen
     and (device-width : 414px) 
@@ -164,19 +163,18 @@ body {
 
 /* Galaxy s9+ */
 @media only screen and (min-width: 360px) and (orientation: portrait) {
-      .hero {
-        max-width: 100%;
-        margin-bottom: -152%;
-        max-height: auto;
-        display: inherit;
-        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("back.jpg");
-        background-size: contain;
-        background-position: top;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        overflow: hidden;
-
-        }
+    .hero {
+    max-width: 100%;
+    margin-bottom: -152%;
+    max-height: auto;
+    display: inherit;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("back.jpg");
+    background-size: contain;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow: hidden;
+    }
 }
 
 
@@ -229,6 +227,7 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     overflow: hidden;
+    background-position: bottom left;
     }
     
     #title {
@@ -286,8 +285,8 @@ li:hover {
 }
 
 .navbar.solid {
-  background-color: #171b24;
-  transition: background-color 1s ease 0s;
+    background-color: #171b24;
+    transition: background-color 1s ease 0s;
 }
 /*HAMBURGER MENU*/
 
@@ -375,13 +374,13 @@ li:hover {
 }
 #about_descript {
     margin: 20px;
-	word-spacing: 5px;
+    word-spacing: 5px;
     letter-spacing: 2px;
-	line-height: 48px;
-	font-size:1.5em;
-	padding-left: 10px;
-	padding-top:10px;
-	font-weight: 200px;
+    line-height: 48px;
+    font-size:1.5em;
+    padding-left: 10px;
+    padding-top:10px;
+    font-weight: 200px;
     text-align: justify;
     font-size: 1vw;
     width: 50%;
@@ -392,9 +391,9 @@ li:hover {
 
 
 h2 {
-	text-align: center;
-	font-size: 2em;
-	text-transform: uppercase;
+    text-align: center;
+    font-size: 2em;
+    text-transform: uppercase;
     padding-top: 30px;
     font-weight: bold;
     letter-spacing: 10px;
@@ -415,10 +414,10 @@ h2 {
     and (device-height : 736px) {
     #about_descript {
     margin-top:10px;
-	line-height: normal;
-	font-size: 3.5vw;
-	padding: 20px 25px 50px 25px;
-	font-weight: 100px;
+    line-height: normal;
+    font-size: 3.5vw;
+    padding: 20px 25px 50px 25px;
+    font-weight: 100px;
     text-align: justify;
     width: 100%;
     justify-content: center;
@@ -452,78 +451,78 @@ h2 {
 /* GALAXY S9 PLUS */
 
 @media only screen and (min-width: 360px) and (orientation: portrait) {
-        #about {
-        position: relative;
-        padding-top: 1px;
-        background-color:#ececea ;
-        color: #2a3440;
-        padding-bottom: 5vw;
-        }
+    #about {
+    position: relative;
+    padding-top: 1px;
+    background-color:#ececea ;
+    color: #2a3440;
+    padding-bottom: 5vw;
+    }
 }
 
 @media only screen and (min-width: 360px) and (orientation: portrait) {
-        h2 {
-        text-align: center;
-        font-size: 1em;
-        text-transform: uppercase;
-        padding-top: 30px;
-        font-weight: bold;
-        letter-spacing: 10px;
-        }
+    h2 {
+    text-align: center;
+    font-size: 1em;
+    text-transform: uppercase;
+    padding-top: 30px;
+    font-weight: bold;
+    letter-spacing: 10px;
+    }
 }
 
 @media only screen and (min-width: 360px) and (orientation: portrait) {
-        #about_descript {
-        margin: 20px;
-        word-spacing: 1px;
-        letter-spacing: 1px;
-        line-height: 15px;
-        padding-left: 20px;
-        padding-right: 20px;
-        padding-top: 0px;
-        font-weight: lighter;
-        text-align: justify;
-        font-size: 0.6em;
-        width: 88%;
-        justify-content: center;
-        position: relative;
-        left: 0%;
-        }
+    #about_descript {
+    margin: 20px;
+    word-spacing: 1px;
+    letter-spacing: 1px;
+    line-height: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 0px;
+    font-weight: lighter;
+    text-align: justify;
+    font-size: 0.6em;
+    width: 88%;
+    justify-content: center;
+    position: relative;
+    left: 0%;
+    }
 }
 
 /*IPAD*/
 @media only screen and (device-width : 1024px) and (device-height : 1366px) {
-        #about {
-        position: relative;
-        padding-top: 1px;
-        background-color:#ececea ;
-        color: #2a3440;
-        padding-bottom: 5vw;
-        }
-        #about_descript {
-        margin: 20px;
-        word-spacing: 4px;
-        letter-spacing: 4px;
-        line-height: 48px;
-        padding-left: 10px;
-        padding-top:10px;
-        font-weight: 200px;
-        text-align: justify;
-        font-size: 2vw;
-        width: 70%;
-        justify-content: center;
-        position: relative;
-        left: 13%;
-        }
+    #about {
+    position: relative;
+    padding-top: 1px;
+    background-color:#ececea ;
+    color: #2a3440;
+    padding-bottom: 5vw;
+    }
+    
+    #about_descript {
+    margin: 20px;
+    word-spacing: 4px;
+    letter-spacing: 4px;
+    line-height: 48px;
+    padding-left: 10px;
+    padding-top:10px;
+    font-weight: 200px;
+    text-align: justify;
+    font-size: 2vw;
+    width: 70%;
+    justify-content: center;
+    position: relative;
+    left: 13%;
+    }
 
-
-        h2 {
-        text-align: center;
-        font-size: 3.5em;
-        text-transform: uppercase;
-        padding-top: 30px;
-        font-weight: bold;
-        letter-spacing: 10px;
+    h2 {
+    text-align: center;
+    font-size: 3.5em;
+    text-transform: uppercase;
+    padding-top: 30px;
+    font-weight: bold;
+    letter-spacing: 10px;
         }
 }
 
@@ -537,8 +536,8 @@ h2 {
 
 h3 {
     text-align: center;
-	font-size: 2em;
-	text-transform: uppercase;
+    font-size: 2em;
+    text-transform: uppercase;
     font-weight: bold;
     letter-spacing: 10px;
     color: #ececea;
@@ -633,8 +632,8 @@ h3 {
 
 h3 {
     text-align: center;
-	font-size: 3em;
-	text-transform: uppercase;
+    font-size: 3em;
+    text-transform: uppercase;
     font-weight: bold;
     letter-spacing: 10px;
     color: #ececea;
@@ -668,8 +667,8 @@ h3 {
 
 h4 {
     text-align: center;
-	font-size: 2em;
-	text-transform: uppercase;
+    font-size: 2em;
+    text-transform: uppercase;
     padding-top: 4vw;
     padding-bottom: 5vw;
     font-weight: bold;
@@ -697,28 +696,28 @@ label {
 
 /*IPHONE 10 */
 @media only screen and (device-width : 375px) and (device-height : 812px) {
-        h4 {
-        background-image: none;
-        background-color: #2a3440;
+    h4 {
+    background-image: none;
+    background-color: #2a3440;
         }
 }
 
 /*IPHONE 6/7/8 PLUS */
 @media only screen and (device-width : 414px) and (device-height : 736px) {
-        h4 {
-        font-size: 1em;
-        background-image: none;
-        background-color: #2a3440;
-        }
+    h4 {
+    font-size: 1em;
+    background-image: none;
+    background-color: #2a3440;
+    }
 }
 
 /*GALAXY S9 PLUS */
 @media only screen and (min-width: 360px) and (orientation: portrait) {
-       h4 {
-        font-size: 1em;
-        background-image: none;
-        background-color: #2a3440;
-        }
+    h4 {
+    font-size: 1em;
+    background-image: none;
+    background-color: #2a3440;
+    }
 }
 
 /* Centre the form within the page */
@@ -753,8 +752,8 @@ input:focus, textarea:focus {
 }
 
 textarea {
-	height:213px;
-	background:url(images/textarea-bg.jpg) right no-repeat #ececea;
+    height:213px;
+    background:url(images/textarea-bg.jpg) right no-repeat #ececea;
 }
 
 @media only screen and (device-width : 414px) and (device-height : 736px) {
@@ -843,8 +842,8 @@ textarea {
 
     h4 {
     text-align: center;
-	font-size: 3em;
-	text-transform: uppercase;
+    font-size: 3em;
+    text-transform: uppercase;
     padding-top: 4vw;
     padding-bottom: 5vw;
     font-weight: bold;
@@ -890,8 +889,8 @@ textarea {
     }
 
     textarea {
-	height:213px;
-	background:url(images/textarea-bg.jpg) right no-repeat #ececea;
+    height:213px;
+    background:url(images/textarea-bg.jpg) right no-repeat #ececea;
     }
     #submit {
     width:127px;
@@ -1000,10 +999,9 @@ footer {
     transition: 0.1s;
     background-color: #ececea;
     box-shadow: none;
-    
 }
 
 .copyright {
     position: relative;
-}
+    }
 }
