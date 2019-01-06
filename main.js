@@ -46,8 +46,7 @@ $(document).ready(function(){
             $('.navbar').hide();
         }
         $('#burger').click(function(){
-            $('.navbar').addClass('mobileSolid');
-            $('.mobileSolid').slideToggle("fast");
+            $('.navbar').addClass('mobileSolid').slideToggle("fast");
         });
     }
     hamburgerToggle();
