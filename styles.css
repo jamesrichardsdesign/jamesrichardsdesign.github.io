@@ -314,10 +314,9 @@ li:hover {
     overflow: hidden;
     border: none;
     z-index: 100;
-    top: 3.8%;
+    top: 3.4%;
     padding: none;
     margin: none;
-    border-top: 7px solid #ececea;
     }
 
     .nav li a {
