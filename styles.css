@@ -756,12 +756,14 @@ textarea {
 	background:url(images/textarea-bg.jpg) right no-repeat #ececea;
 }
 
+@media (min-width: 600px) {
 #submit {
     width:127px;
     height:38px;
     cursor:pointer;
     position:relative;
     left: 35%;
+    }
 }
 
 #submit:hover {
@@ -829,9 +831,13 @@ textarea {
 
 @media only screen and (min-width: 360px) and (orientation: portrait) {
     #submit{
-    left: 34.5%;
+    width:127px;
+    height:38px;
+    cursor:pointer;
+    position:relative;
     }
 }
+
 
 /*IPAD ///////////////////////////////////////////////////////////////////*/
 @media only screen and (device-width : 1024px) and (device-height : 1366px) {
