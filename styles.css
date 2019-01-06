@@ -314,9 +314,10 @@ li:hover {
     overflow: hidden;
     border: none;
     z-index: 100;
-    top: 3.9%;
+    top: 3.8%;
     padding: none;
     margin: none;
+    border-top: 1px solid white;
     }
 
     .nav li a {
@@ -379,13 +380,13 @@ li:hover {
 }
 #about_descript {
     margin: 20px;
-	word-spacing: 5px;
+    word-spacing: 5px;
     letter-spacing: 2px;
-	line-height: 48px;
-	font-size:1.5em;
-	padding-left: 10px;
-	padding-top:10px;
-	font-weight: 200px;
+    line-height: 48px;
+    font-size:1.5em;
+    padding-left: 10px;
+    padding-top:10px;
+    font-weight: 200px;
     text-align: justify;
     font-size: 1vw;
     width: 50%;
@@ -396,9 +397,9 @@ li:hover {
 
 
 h2 {
-	text-align: center;
-	font-size: 2em;
-	text-transform: uppercase;
+    text-align: center;
+    font-size: 2em;
+    text-transform: uppercase;
     padding-top: 30px;
     font-weight: bold;
     letter-spacing: 10px;
@@ -419,10 +420,10 @@ h2 {
     and (device-height : 736px) {
     #about_descript {
     margin-top:10px;
-	line-height: normal;
-	font-size: 3.5vw;
-	padding: 20px 25px 50px 25px;
-	font-weight: 100px;
+    line-height: normal;
+    font-size: 3.5vw;
+    padding: 20px 25px 50px 25px;
+    font-weight: 100px;
     text-align: justify;
     width: 100%;
     justify-content: center;
