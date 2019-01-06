@@ -315,6 +315,8 @@ li:hover {
     border: none;
     z-index: 100;
     top: 3.9%;
+    padding: none;
+    margin: none;
     }
 
     .nav li a {
@@ -331,6 +333,7 @@ li:hover {
     font-size: 3.25vw;
     letter-spacing: 2px;
     cursor: pointer;
+    padding-top: 0px;
     }
 
     li:hover {
@@ -344,8 +347,10 @@ li:hover {
     
     .navbar.mobileSolid {
     background-color: #2B2F37;
+    position: fixed;
     }
 }
+
 
 @media only screen and (device-width: 375px) and (orientation: portrait) {
     .navbar {
