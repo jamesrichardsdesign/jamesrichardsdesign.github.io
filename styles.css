@@ -221,14 +221,14 @@ body {
     max-width: 100%;
     margin: 0% 0% 0% 0%;
     position: relative;
-    max-height: auto;
+    max-height: 1366px;
     display: inherit;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("back.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     overflow: hidden;
-    background-position: bottom left;
+    background-position: bottom;
     }
     
     #title {
@@ -936,7 +936,7 @@ textarea {
     border:1px solid #dedede;
     padding:10px;
     margin-top:3px;
-    font-size:0.9em;
+    font-size:0.7em;
     -moz-border-radius:10px;
     -webkit-border-radius:10px;
     border-radius:0px;
@@ -958,7 +958,7 @@ textarea {
     
     #submit {
     width:127px;
-    height:38px;
+    height:40px;
     cursor:pointer;
     position:relative;
     left: 37%;
