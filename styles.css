@@ -166,7 +166,7 @@ body {
 @media only screen and (min-width: 360px) and (orientation: portrait) {
     .hero {
     max-width: 100%;
-    margin-bottom: -152%;
+    margin-bottom: -150%;
     max-height: auto;
     display: inherit;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("back.jpg");
