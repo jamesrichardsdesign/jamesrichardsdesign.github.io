@@ -915,6 +915,47 @@ textarea {
     left: 37%;
 }
 }
+
+@media only screen 
+    and (min-width: 1024px) 
+    and (max-height: 1366px) 
+    and (orientation: landscape) 
+    and (-webkit-min-device-pixel-ratio: 1.5) {
+    form {
+    margin:0 auto;
+    width:459px;
+    padding-top: 1vw;
+    position: relative;
+    }
+
+/* Style the text boxes */
+    input, textarea {
+    width:439px;
+    height:27px;
+    background:#efefef;
+    border:1px solid #dedede;
+    padding:10px;
+    margin-top:3px;
+    font-size:0.9em;
+    -moz-border-radius:10px;
+    -webkit-border-radius:10px;
+    border-radius:0px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    border-width: 1px;
+    border-color: #171b24;
+    background-color: #ececea;
+    }
+
+    input:focus, textarea:focus {
+    border:1px solid #97d6eb;
+    }
+
+    textarea {
+    height:213px;
+    background:url(images/textarea-bg.jpg) right no-repeat #ececea;
+    }   
+}
 /*///////////////////////////////////////////////////////////////////////////////////
 
 /*FOOTER*/
