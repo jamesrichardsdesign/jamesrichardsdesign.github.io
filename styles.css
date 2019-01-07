@@ -165,7 +165,7 @@ body {
 @media only screen and (min-width: 360px) and (orientation: portrait) {
     .hero {
     max-width: 100%;
-    margin-bottom: -148%;
+    margin-bottom: -150%;
     max-height: auto;
     display: inherit;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("back.jpg");
@@ -182,7 +182,7 @@ body {
     
     #title {
     position: absolute;
-    top: 13.7%;
+    top: 13.8%;
     font-family: 'Pacifico', cursive;
     width: 40%;
     font-weight: lighter;
