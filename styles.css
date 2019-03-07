@@ -162,10 +162,11 @@ body {
 }
 
 /* Galaxy s9+ */
+/* Galaxy s9+ */
 @media only screen and (min-width: 360px) and (orientation: portrait) {
     .hero {
-    max-width: 100%;;
-    margin-bottom: -140%;
+    max-width: 100%;
+    margin-bottom: -150%;
     max-height: auto;
     display: inherit;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("back.jpg");
@@ -174,9 +175,8 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     overflow: hidden;
-    
+    }
 }
-
 
 
 @media only screen and (min-width: 360px) and (orientation: portrait) {
@@ -833,7 +833,6 @@ textarea {
     width: 375px;
     }
 }
-
 @media only screen and (device-width : 375px) and (device-height : 812px) {
     #submit {
     left: 125px;
@@ -996,7 +995,6 @@ textarea {
     }
 }
 /*///////////////////////////////////////////////////////////////////////////////////
-
 /*FOOTER*/
 footer {
     padding-top: 1vw;
